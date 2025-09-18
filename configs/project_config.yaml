@@ -1,0 +1,34 @@
+# EEG-Robotic-Arm Project Configuration
+
+project:
+  name: "EEG-Controlled Robotic Arm"
+  version: "0.1.0"
+  phase: "Phase 1 - Simulation"
+
+robot:
+  dof: 4
+  joints:
+    - name: "base_rotation"
+      type: "revolute"
+      limits: [-180, 180]  # degrees
+    - name: "shoulder"
+      type: "revolute"
+      limits: [-90, 90]
+    - name: "elbow"
+      type: "revolute"
+      limits: [-135, 135]
+    - name: "wrist"
+      type: "revolute"
+      limits: [-90, 90]
+
+simulation:
+  engine: "pybullet"
+  frequency: 240  # Hz
+  gui: false  # Set to true when X11 is working
+
+ros2:
+  namespace: "eeg_arm"
+  topics:
+    joint_commands: "/eeg_arm/joint_commands"
+    joint_states: "/eeg_arm/joint_states"
+    eeg_signals: "/eeg_arm/eeg_signals"

@@ -37,3 +37,22 @@ MIT License (see LICENSE file)
 
 ## Contributors
 - Your Name (@your-github-username)
+
+## Development Progress
+
+### Week 1 - Simulation Foundation
+- [x] Day 1: Environment Setup
+  - Docker with ROS2 Humble configured
+  - PyBullet installed and tested  
+  - X11 forwarding setup for GUI
+- [x] Day 2: Repository Initialization
+  - Project structure created
+  - ROS2 workspace configured
+  - Documentation started
+
+### Current Status
+- Environment: Docker container `ros2-sim` with ROS2 Humble
+- Simulator: PyBullet (installed and tested)
+- Workspace: `/workspace` in Docker, `~/eeg-robotic-arm` on Mac
+- Next: Create URDF model for 4-DOF arm
+
