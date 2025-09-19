@@ -13,17 +13,13 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='your_name',
-    maintainer_email='you@example.com',
-    description='Arm simulation package',
-    license='Apache-2.0',
+    maintainer='root',
+    maintainer_email='root@todo.todo',
+    description='TODO: Package description',
+    license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': [
-            'test_node = arm_sim.test_node:main',
-            'pybullet_sim = arm_sim.pybullet_sim:main',
-            'keyboard_control = arm_sim.keyboard_control:main',
-            'ascii_visualizer = arm_sim.ascii_visualizer:main',
-        ],
+        'console_scripts': ['test_node = arm_sim.test_node:main',,
+            'pybullet_sim = arm_sim.pybullet_sim:main'],
     },
 )
