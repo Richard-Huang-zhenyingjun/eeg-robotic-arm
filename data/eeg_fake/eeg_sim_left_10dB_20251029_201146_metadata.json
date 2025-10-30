@@ -1,0 +1,19 @@
+{
+    "fs": 256,
+    "duration": 10,
+    "n_channels": 8,
+    "channel_names": [
+        "O1",
+        "O2",
+        "Oz",
+        "P3",
+        "P4",
+        "Pz",
+        "C3",
+        "C4"
+    ],
+    "command": "left",
+    "snr_db": 10,
+    "ssvep_freq": 10.0,
+    "timestamp": "20251029_201146"
+}
